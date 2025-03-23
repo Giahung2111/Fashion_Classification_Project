@@ -7,6 +7,9 @@ from models.model import FashionMNISTModelV0
 from utils.train_utils import train_model
 from utils.data_utils import get_data
 
+# Setup device agnostic code
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(device)
 
 if __name__ == "__main__":
     torch.manual_seed(42) 

@@ -7,6 +7,10 @@ from torchmetrics import Accuracy
 from utils.data_utils import get_data
 from torch.utils.data import DataLoader
 
+# Setup device agnostic code
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(device)
+
 if __name__ == "__main__":
     # Lấy dữ liệu
     train_data, test_data = get_data()
@@ -14,7 +18,6 @@ if __name__ == "__main__":
     test_dataloader = DataLoader(test_data, batch_size=config['batch_size'], shuffle=False)
 
     # Các thiết lập khác
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     loss_fn = nn.CrossEntropyLoss()
     accuracy_fn = Accuracy(task="multiclass", num_classes=len(train_dataloader.dataset.classes)).to(device)
 
