@@ -57,8 +57,8 @@ def train_model(model, train_dataloader, test_dataloader, epochs, learning_rate)
 
         ###Testing
         test_loss, test_acc = 0, 0
-        model.eval()
-        with torch.inference_mode():
+        model.eval() # Tắt BatchNorm & Dropout khi test
+        with torch.inference_mode(): # Tắt gradient để tăng tốc độ
             for X, y in test_dataloader:
                 # 1. Forward pass
                 test_pred = model(X)

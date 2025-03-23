@@ -2,13 +2,14 @@
 import torch
 from torch.utils.data import DataLoader
 from configs.config_settings import config
-from datasets.custom_dataset import CustomDataset
+# from datasets.custom_dataset import CustomDataset
 from models.model import FashionMNISTModelV0
 from utils.train_utils import train_model
 from utils.data_utils import get_data
 
 
 if __name__ == "__main__":
+    torch.manual_seed(42) 
     train_data, test_data = get_data()
     train_dataloader = DataLoader(train_data, batch_size=config['batch_size'], shuffle=True)
     test_dataloader = DataLoader(test_data, batch_size=config['batch_size'], shuffle=False)

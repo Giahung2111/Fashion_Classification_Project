@@ -1,0 +1,7 @@
+- Mô hình FashionMNISTModelV0 (Linear Model) có các thông số sau 
+    + Epochs: 10 
+    + Batch Size: 32
+    + Learning Rate: 0.001
+    + Input Shape: 784
+    + Hidden Layer: 10
+    + {'model_name': 'FashionMNISTModelV0', 'model_loss': tensor(0.6355), 'model_accuracy': tensor(0.7808)}
