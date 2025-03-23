@@ -1,6 +1,6 @@
 # Fashion Classification Project
 
-This project aims to classify images of fashion items using a "MLP Linear Model", "MLP Non-Linear Model", "Convolutional neural network model" built with PyTorch.
+This project aims to classify images of fashion items using a "MLP Linear Model", "MLP Non-Linear Model", "Convolutional neural network model (Tiny VGG)" built with PyTorch.
 
 ## Installation
 
