@@ -1,0 +1,72 @@
+We're using cpu
+Epoch 1\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 2.1647, Test loss;  2.0031, Test accuracy: 0.4462
+Epoch 2\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.8182, Test loss;  1.6600, Test accuracy: 0.5011
+Epoch 3\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.5460, Test loss;  1.4684, Test accuracy: 0.5389
+Epoch 4\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.4045, Test loss;  1.3648, Test accuracy: 0.5563
+Epoch 5\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.3194, Test loss;  1.2976, Test accuracy: 0.5680
+Epoch 6\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.2599, Test loss;  1.2471, Test accuracy: 0.5811
+Epoch 7\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.2137, Test loss;  1.2066, Test accuracy: 0.5929
+Epoch 8\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.1754, Test loss;  1.1726, Test accuracy: 0.6018
+Epoch 9\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.1425, Test loss;  1.1425, Test accuracy: 0.6143
+Epoch 10\n------------------------------
+Looked at 0/60000 samples
+Looked at 12800/60000 samples
+Looked at 25600/60000 samples
+Looked at 38400/60000 samples
+Looked at 51200/60000 samples
+Train loss: 1.1140, Test loss;  1.1170, Test accuracy: 0.6225
+Training time: 63.02 seconds

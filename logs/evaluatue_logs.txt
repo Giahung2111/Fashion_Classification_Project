@@ -5,3 +5,17 @@
     + Input Shape: 784
     + Hidden Layer: 10
     + {'model_name': 'FashionMNISTModelV0', 'model_loss': tensor(0.6355), 'model_accuracy': tensor(0.7808)}
+
+- Mô hình FashionMNISTModelV1 (Linear Model) có các thông số sau 
+    + Epochs: 10 
+    + Batch Size: 32
+    + Learning Rate: 0.001
+    + Input Shape: 784
+    + Hidden Layer: 10
+
+- Mô hình FashionMNISTModelV2 (Tiny VGG Model) có các thông số sau 
+    + Epochs: 10 
+    + Batch Size: 32
+    + Learning Rate: 0.1
+    + Input Shape: 1
+    + Hidden Layer: 10

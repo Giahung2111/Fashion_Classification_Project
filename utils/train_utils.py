@@ -14,7 +14,7 @@ def print_train_time(start, end, device: torch.device = None):
     print(f"Training time: {total_time:.2f} seconds")
     return total_time 
 
-def train_model(model, train_dataloader, test_dataloader, epochs, learning_rate):
+def train_model(model, train_dataloader, test_dataloader, epochs, learning_rate, device):
     torch.manual_seed(42)
     train_time_start_on_cpu = timer()
 
